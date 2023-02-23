@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>GPT3</title>
+		
+		<link rel="stylesheet" href="./assets/index-d915720e.css">
+	</head>
+	<body
+		class="bg-gradient-to-br from-semi_blue_bg via-BG_GPT to-BG_GPT text-white"
+	>
+		<div
+			class="m-0 p-0 box-border  overflow-x-hidden overflow-y-auto scroll-smooth"
+		>
+			<!-- Navbar -->
+			<section class="lg:max-w-[1169.34px]  mx-auto">
+				<div class="flex justify-between text-[18px] mt-[55px] items-baseline">
+					<div class="flex">
+						<p class="mr-3 lg:mr-14 font-bold ml-10 md:ml-16 lg:ml-0">GPT3</p>
+						<div class="hidden md:block">
+							<ul class="flex lg:gap-16 md:gap-9 ">
+								<li class="hover:bg-gradient-to-r hover:from-gpt_purple hover:scale-110 hover:to-gpt_orange hover:bg-clip-text hover:text-transparent "><a href="#">Home</a></li>
+								<li class="hover:bg-gradient-to-r hover:from-gpt_purple hover:scale-110 hover:to-gpt_orange hover:bg-clip-text hover:text-transparent "><a href="#what-is-gpt">What is GPT?</a></li>
+								<li class="hover:bg-gradient-to-r hover:from-gpt_purple hover:scale-110 hover:to-gpt_orange hover:bg-clip-text hover:text-transparent "><a href="#open-ai">Open Ai</a></li>
+								<li class="hover:bg-gradient-to-r hover:from-gpt_purple hover:scale-110 hover:to-gpt_orange hover:bg-clip-text hover:text-transparent "><a href="#case-studies">Case Studies</a></li>
+								<li class="hover:bg-gradient-to-r hover:from-gpt_purple hover:scale-110 hover:to-gpt_orange hover:bg-clip-text hover:text-transparent "><a href="#library">library</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="mr-4 md:mr-0 flex gap-3 md:gap-6">
+						<div
+							class="text-center w-auto lg:w-28 p-2 border-white border-[1px]"
+						>
+							<button>Sign in</button>
+						</div>
+						<div
+							class="bg-dark_orange p-2 w-auto rounded-lg lg:w-28 text-center"
+						>
+							<button>Sign up</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Hero sectio  -->
+			<section class="lg:max-w-[1169.34px] mx-auto">
+				<div class="flex flex-col md:flex-row">
+					<!-- Left Section -->
+					<div>
+						<div class="w-full sm:w-[558px] mt-16">
+							<p
+								class="w-full sm:w-[450px] text-[32px] text-center sm:text-start md:text-[40px] font-bold bg-gradient-to-r from-gpt_purple to-gpt_orange text-transparent bg-clip-text"
+							>
+								Let’s Build Something amazing with GPT-3<br />
+								OpenAI
+							</p>
+							<p
+								class="p-2 md:mt-5 md:mb-7 mx-auto text-center sm:text-start w-full md:w-[552px] text-sm sm:p-1 text-blue_txt leading-loose sm:leading-relaxed"
+							>
+								Yet bed any for travelling assistance indulgence unpleasing.
+								<br />
+								Not thoughts all exercise blessing. Indulgence way <br />
+								everything joy alteration boisterous the attachment. Party
+								<br />
+								we years to order allow asked of.
+							</p>
+						</div>
+						<div
+							class="w-auto lg:w-[639.7px] flex flex-col md:flex-row mx-auto md:mx-0 gap-5 md:gap-0 items-center md:items-start"
+						>
+							<div>
+								<input
+									type="email"
+									placeholder="Your email Address"
+									class="lg:h-[72px] w-auto lg:w-[463px] bg-blue_semidark rounded-sm p-3 m-0"
+								/>
+							</div>
+							<div>
+								<button
+									class="lg:h-[72px] bg-dark_orange m-0 p-2 w-[180px] lg:w-[177px] text-center border-collapse gap-0 hover:bg-gpt_orange rounded-md md:rounded-none"
+								>
+									Get Started
+								</button>
+							</div>
+						</div>
+					<div class="flex justify-center items-center mx-auto ml-3 md:block">
+						<div class="flex flex-col md:flex-row mt-5 md:self-baseline ">
+							<div>
+								<ul class="flex relative -space-x-3 self-baseline">
+									<li>
+										<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkCAYAAAAOwvOmAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAoUSURBVHgBtVhrbBTXFf5mdvbtXdvYxuvHmiWEhwGHBYwh5IHbNKrSVk2oVKmtVKVRflWtQqK2Sv+0hTYNKo0USFFTtVIhrdRKjcyjitSmTUKIVKkFQmzAxoDBxtiAH9he7/qxu/PoOffeWa8dSiFqL1zP7Mzce7/5zjnfOXc03GNzHKeMDk9R30Y9SZ1/J4oe6VO9nfpRTdPex/+rEZhW6sece2+91A9QT9ztWtrdgKHDj6i3utdSqTSmpqYxlckgk5mGZVniuu0AgYAfJSVBhMNhlJVF4ff7i6fbS30fsdeHTwqKAL1Kh+f53DRNDF6/ibFbKUwTIJqYn5CT0LnjuIP4v12YuqKyHLW11YhGI+60fdS305j2ewKl/OYwFDtDQ6Po7bsGmxhxFAj5r2gWx8XkqDvOHFD6uWhRGRKJODHnc0ftpHl23RUoBegY9aRpWujtvYbhkVHoui4HMEMOH93BmgBSDErXXFDqqBbyeAzUx2OIxRbfEdjtQDGg1mw2h/PdlzE9PSOZ0VyGFlDDjqRrLiJxS1s4rcagdQXURm1dDPX1Ne7dF2jevf8RFAFih97JDLWf6UaOgOm0oK55aOH5A3LZWZw/8xE6Tp/C2NANxBMJrGxcjbUbt875W9FLOOolHHoJ7rX11S6wCeqfKvYxrQhQgg69fH7pcj9GRsfE5Lqmi4ckW5p409GhIby25ye41N0Fg0AbZBbTzCO2KIqyqhp86evPYk1yEz2v7Oy4JtSIWFsCo2uNjfcjEi3hJdtp7vW3A8WAEsMjY+ghP5J+oYmjONOla8/OzGDXi8+h53w3KsoiZN5pGPSARYtNZ00wpXnbwg9378HGzQ9LUK5fOdL3XGA8ZzK5BobhmWdGTQH6Bh0OsB91dl9BLpenAdIHNGJKL/Kivxz+E954/Rd4cFUcKxJ1WLlsCcJeD4IBA52dXTh+thfvnRuA1+fFK6/tx9p1zcKnCpHIgmHbEhyBr45VYUlDnWvGpQRswlBPPs1/UukpZAmQyw7YdJqmpuKjjc7T/8K3t2/FYy3rEAqXQff6yO+8JBdZxEpLsHxJLa4O/xWXRybxs10/wG/+0IZAMKSCRDFGPsps0UCMjo6jrjbGbHHUt1I/oitf4h8YGBwq+I70J63InyBY27BmObY8sAKhaBW8oVJ4AxEY6hgoKUWsugpbVtagNOhDajyF7rMdwkyC+MLcc1pnWTbp4IhL4w5AxpQANMks5S05UNeUEGkFGWCdYpPGF5fDF4gSQ2HAG4TlK0fWE0FeC1DUG0KLtjavxcqGSiYa1/t72TNlF/PJI0e1+3v01oQLKsk6yebbJkFR6tA9ImJY83gaAc5xCvHAk1iaF//ovIINTRHU1Zeh58olnGk/hVjdUtxXVwUtZ2FpTTUWhQIoD4coLd2Svu7qvOO4AVmITPZhk7KF4REmTDJTbD5Mz+YKJmKbC3+CZEc4vTInJ+EgRUv3yeOw0mOojfrRQJnjAsnI+EA/gqXV8HgNxKuiyOdyQkLmx7kMG5cx12czZCnVEoYLSkRc0UM8yFVnzRU+6l5/GGdPncYXHt5IIH1UEfixZvM2rA6UwgMLXoOiK5dBTUUE3//KE2hoWqcQaSqaXWC2EHoIskhqsvmPgzLtucyuL3gLN7cx5XVLElgVMlG6uA6aEE0HFYk1wGyGwGSJnQw8xPT6lQnUxtdDswykHSFOwo/EmzmOMqOmotEplD/UlugoNJlh9SIZcJvSPBHGvuwUSgwdXR/+E/29pGmpMdZp6IEgdIOns0hILaoGQvCR2S0qWWwCxGNtRx4duJGo0qY6LzZwH5+wqjIgR91cCMydNE8RZwaDqKqpQk11DH5ibDY7Q7Bs8YxFeuU4JjwUodncLNLVK8gKzIQjnFkSpRWYVyFFUetxl7rKoEQ8Bvzegg8tBCbn0MRkdrgcN8fHkRlNI3WhD+mLlzHefwn5/DRsD93Pm2RGE2euDGC4qhE5MjGbxmSGHKnmNuwCJ4oohEJBF9QEg+rgs0g4JCNCqcqcPynz2fLVwlUNQvnLYiWINNaivGkZKuJxOMSQlZ9FzsxhKJVBSXw5tIqYMB2DskkkTcuRprRdE8oX5rX8lJZUa2dQomQIBX3iKUdEna58XpPpxZbARM4yvNBjy5G12I/CsEm3OAFnyclTqWH09PVgZHwCi2O1oEdEuWWpJCxYsh3ln9LZeY1gMACfAsW7H46+g9RfjYSDLF5C9qHMpSnD82DLtsU90zIRvS+JSx9cxtR0h1DxmZkp3BoaEEyVLa7B2mQz0vRizIcoUyTfIsps8XbyvV3vLi0t1O/vC//mrEyL8o/WqooohkZSssRQ4SoACVDkF7aJPIGC4Uco3ohDv95NweFQtVCPpuZNqKypg98bgJ/y4LUb11FW14RChaqqRAaqOZqY171TsajUBfWGsmphG3WMmTh3cUBQLIsCyVCOCrh8XnauIi52ncXZ99rw0GIb3nAJmpKPIlJeSfezFEVeGmOi7e/HcHrYxJaHHsGmlgdFyuL4ksnZI2ow3aOjkgAlGkQF2kcELRVMuXZktjwevbWmugwDN8YFW7aSAsEWOeuF811oe/OP6O+7gqYKA/c9+gSMQAlJwix8lMwNYtAhhtOZNN46eR7pGRM9PRdw/Ng7eHL7l7GaymV3F8Sdnbs2VumytMs9Ka48BVsC8uAoxiYygrFeEsiO9tN49523MTpyU9VVpOyU87731c8jXlMvIigQLBWKPTqZws9/9ybO9Q4SSEOwwelEJ7moqqxG0wPr8PhnP4fKikqsuD+O8tKSeSzNA6WAcTm6g8341t+O48DBg+juPCOc2/B6BUiNBZIozJFzh2k3vONrT2HzqmXkaxrePtmBtnc/wCRtVr20M5aCKAOFlZvNxgIdCIXw8k9fwmOtj7hLLy3eNRvFoOjG8zTBOjbjRirkfmvPUn7zwEsCKKtGS+YojX3dj1nTxp7fH0J1XQOQn8FYahJZquEDgQAx4xFgOKJ5JOsUg+KAefaZp4sBvbBwGz8/l2D+ZnQyncbLe15B2+GjtGsxiI08bJOBURoh03iJPa7rrXxOXDd8PvgpBYmanAKEvccg8+n0rENgIpEIXvzud7D9yS8W/IgA7VyI4WOgioAdgPzkg7Yjf8b+X/4K1wYGwUHN23eh/pRwDRLTmXSGahoPCaBf1Fw2gdc5lzIsj0dc25Bch90v/Zjq8dpihvbebv3bgioCtxPyi4toh44cxb79r9OHDgbHYmgI/cvbHoQC5HMkHcyOSanGUSHR0tKC5771TbRsanan6aP+zJ2+W90RlAKWgPzYkXSvdXVfwIkTJ3Hiw49oszGINJlZfGugKItGo2jemETjihV4/DOfFiZTjRP/Pup7WbDxv2jqo9lh597bODOuXOKu2n9l6jbgEpA7IO5LMPeJ0W19kEn+KvUjn+Tz4r8BJWX+7TcRXLQAAAAASUVORK5CYII=" alt="person1" />
+									</li>
+									<li>
+										<img src="data:image/png;base64,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" alt="person2" />
+									</li>
+									<li>
+										<img src="data:image/png;base64,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" alt="person3" />
+									</li>
+									<li>
+										<img src="data:image/png;base64,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" alt="person4" />
+									</li>
+									<li>
+										<img src="data:image/png;base64,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" alt="person5" />
+									</li>
+									<li class="self-baseline">
+										<div
+											class="rounded-[40px] w-[40px] h-[40px] bg-white p-2 text-center flex justify-center items-center"
+										>
+											<div
+												class="rounded-[38px] w-[38px] h-[33px] text-[10px] bg-lighter_green flex justify-center items-center p-0"
+											>
+												<span class="text-black font-bold">1.6k+</span>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<p class="mt-3 ml-1 text-[10px]">
+								1,600 people requested access a visit in last 24 hours
+							</p>
+						</div>
+					</div>
+					</div>
+
+					<!-- Right Section -->
+					<div>
+						<img
+							src="./assets/Header Illustration-afafb902.png"
+							alt="header_img"
+							width="400px"
+							height="402px"
+							class="md:pl-28 object-cover bg-cover lg:h-[690px] lg:w-[667px]  md:h-[303px] md:w-[303px]  "
+						/>
+					</div>
+				
+			</section>
+			<!-- companies -->
+		
+			<section class=" mt-20 mb-28 md:mt-0 md:mb-48 relative ">
+				<div class=" flex flex-col md:flex-row md:flex-wrap lg:flex-nowrap w-full md:w-[670px] h-[24px] mx-auto bg-cover  box-border  justify-center ">
+					<ul class=" mx-auto  flex flex-col md:flex-row gap-5 md:gap-8 ">
+						<li>
+							<img src="./assets/google.png" class="bg-cover w-[70px] h-full" />
+						</li>
+						<li>
+							<img src="./assets/slack-acb9056f.png" class="bg-cover w-[70px] h-full" />
+						</li>
+						<li>
+							<img src="./assets/atlassian-06250b41.png" class="bg-cover w-[70px] h-full" />
+						</li>
+						<li>
+							<img src="./assets/dropbox-9cff5a42.png" class="bg-cover w-[70px] h-full" />
+						</li>
+						<li>
+							<img src="./assets/shopify-eb76b12b.png" class="bg-cover w-[70px] h-full" />
+						</li>
+					</ul>
+				</div>
+			</section>
+			<!-- Info section 1 -->
+			<section id="what-is-gpt"  class="min-h-fit  md:max-w-[1170px] md:h-[695px] bg-gradient-to-br from-info_pallet to-blue_semidark mx-auto rounded-sm ">
+				<div  class="p-20 flex flex-col justify-between  h-full w-full">
+					<!-- info -defination -->
+					<div class="flex flex-col md:flex-row justify-between">
+						<div>
+							<div class="bg-gradient-to-r from-gpt_purple to-gpt_orange w-14 h-1 rounded block"></div>
+							<div class="mt-4">
+								<p  class="text-white font-bold text-xl">What is GPT-3</p>
+							</div>
+						</div>
+						<div class="max-w-[731px]">
+							<p class=" text-blue_txt">We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by.</p>
+						</div>
+					</div>
+					<!-- info-heading -->
+					<div class="flex flex-col mt-16 md:mt-0 md:flex-row justify-between mb-16 md:mb-0">
+						<div class="w-full md:w-[472px] mb-7 md:mb-0">
+							<p class="bg-gradient-to-r from-gpt_purple to-gpt_orange bg-clip-text text-transparent font-bold text-2xl lg:text-3xl">The possibilities are beyond <br> your imagination</p>
+						
+
+						</div>
+						<div class=" text-center  md:mx-9">
+							<p class="text-dark_orange">Explore the Library</p>
+						</div>
+					</div>
+					<!-- info-cards  -->
+					<div class="flex flex-col md:flex-row md:flex-wrap">
+						<div class="w-full md:w-[334px] min-h-fit py-8 md:py-0 md:h-[193px] flex flex-col justify-between ">
+							<div class="bg-gradient-to-r from-gpt_purple to-gpt_orange w-14 h-1 rounded block mb-7 md:mb-0"></div>
+							<div class=" mt-14 md:mt-4">
+								<p class="text-white font-bold text-lg md:text-xl">Chatbots</p>
+							</div>
+							<div class="w-[270px] md:max-w-[332px] md:h-[87px]  ">
+								<p class="text-blue_txt text-start">We so opinion friends me message as <br>
+									delight. Whole front do of plate heard oh ought. </p>
+							</div>
+						</div>
+						<div class="w-[334px] h-[193px] flex flex-col justify-between">
+							<div class="bg-gradient-to-r from-gpt_purple to-gpt_orange w-14 h-1 rounded block mb-7 md:mb-0"></div>
+							<div class="md:mt-4">
+								<p class="text-white font-bold text-lg md:text-xl">Knowledgebase</p>
+							</div>
+							<div class="w-[270px] md:max-w-[332px] h-[87px] mb-10 md:mb-0 ">
+								<p class="text-blue_txt text-start">At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As <br>
+									put impossible own apartments b</p>
+							</div>
+						</div>
+						<div class="w-[334px] h-[193px] flex flex-col justify-between">
+							<div class="bg-gradient-to-r from-gpt_purple to-gpt_orange w-14 h-1 rounded block mb-7 md:mb-0"></div>
+							<div class="md:mt-4">
+								<p class="text-white font-bold text-lg md:text-xl">Education</p>
+							</div>
+							<div class=" w-[270px]  md:max-w-[332px] h-[87px]  ">
+								<p class="text-blue_txt md:text-start">At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As   <br> put impossible own apartments b</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Info section 2 -->
+			<section class=" mt-32 md:mt-40" id="open-ai">
+				<div class=" max-h-fit w-full flex flex-col md:flex-row md:flex-wrap lg:w-[1115px] lg:h-[428px] mx-auto justify-between">
+					<div>
+						<p class=" text-center md:text-start md:max-w-[462px] text-2xl md:text-3xl font-bold bg-gradient-to-r from-gpt_purple to-gpt_orange bg-clip-text text-transparent">The Future is Now and <br> You Just Need To Realize <br> It. Step into Future Today <br> & Make it Happen.</p>
+						<div class="mt-8 mb-7 md:mb-0">
+							<span class="text-gpt_orange text-center md:text-start block md:inline">Request Early Access to Get Started</span>
+						</div>
+					</div>
+					<div class="h-full gap-7 md:gap-0 items-center  md:items-start flex flex-col justify-between font-medium md:font-bold mb-24 md:mb-0">
+						<div>
+							<div class="hidden md:block bg-gradient-to-r from-gpt_purple to-gpt_orange w-9 h-1 rounded "></div>
+						<div>
+							<p>Improving end <br class="hidden md:block"> distrusts instantly</p>
+						</div>
+						</div>
+						<div>
+							<div class="bg-gradient-to-r from-gpt_purple to-gpt_orange w-9 h-1 rounded hidden md:block"></div>
+						<div>
+							<p>Become the <br class="hidden md:block"> tended active</p>
+						</div>
+						</div>
+						<div>
+							<div class="bg-gradient-to-r from-gpt_purple to-gpt_orange w-9 h-1 rounded hidden md:block"></div>
+						<div>
+							<p>Message or am <br class="hidden md:block"> nothing</p>
+						</div>
+						</div>
+						<div>
+							<div class="bg-gradient-to-r from-gpt_purple to-gpt_orange w-9 h-1 rounded hidden md:block"></div>
+						<div>
+							<p>Really boy law <br class="hidden md:block"> country</p>
+						</div>
+						</div>
+					</div>
+					<div class="text-blue_txt w-[280px] mx-auto md:mx-0 gap-12 md:gap-7 lg:gap-0 md:max-w-[340px] h-full flex flex-col justify-between">
+						<div>
+							<p> From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.</p>
+						</div>
+						<div>
+							<p>
+								Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.
+							</p>
+						</div>
+						<div>
+							<p>
+								Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.
+							</p>
+						</div>
+						<div>
+							<p>
+								Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush.
+							</p>
+						</div>
+					
+
+					</div>
+				</div>
+			</section>
+			<!-- Info section 3 -->
+			<section>
+				<div class="flex flex-col md:flex-row  pt-24 gap-24 max-w-[1070px]  mx-auto" id="case-studies">
+					<div>
+						<img src="./assets/Feature Image-ce7835fe.png" alt="" class="lg:w-[546px] lg:h-[608px]
+						">
+					</div>
+					<div class=" mb-32 md:mb-0 leading-[30px] h-[334px] w-full md:w-[479px] lg:mt-52 flex flex-col justify-around ">
+						<p class="text-blue_txt_lite md:w-[271px] w-full text-center md:text-start text-[16px]  ">Request Early Access to Get Started</p>
+						<p class="bg-gradient-to-r from-gpt_purple to-gpt_orange bg-clip-text text-transparent md:text-[34px] text-[25px] mx-auto md:mx-0 text-center md:text-start font-extrabold w-full md:w-[462px] h-[90px] leading-[45px] 
+						">The possibilities are beyond your imagination</p>
+						<p class="text-blue_txt text-[16px] w-full h-fit text-justify md:text-start md:h-[120px]  px-6 md:px-0">Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
+						<p class="text-gpt_orange text-center md:text-start">Request Early Access to Get Started</p>
+					</div>
+				</div>
+			</section>
+			<!-- Banner section  -->
+			<section class="md:mt-40 md:mb-36 ">
+				<div class=" p-5 md:p-0 md:max-w-[1070px] md:max-h-[173px] bg-white mx-11 md:mx-auto md:bg-gradient-to-r  md:from-gpt_purple md:to-gpt_orange  flex flex-col md:flex-row justify-between rounded-xl text-black ">
+					<div class=" h-full p-4 lg:p-8 ">
+						<p class=" md:max-w-[318px] max-h-[46px] text-[12px] leading-[30px] hidden md:block">
+							Request Early Access to Get Started
+						</p>
+						<p class="w-full text-center md:text-start mx:w-[801px] md:h-[70px] text-[16px] md:text-2xl leading-[45px] font-extrabold 
+						">
+						Register today & start exploring the endless possiblities.</p>
+					</div>
+					<div class=" flex flex-col justify-center items-center">
+						<div class=" md:mr-10" >
+							<button class="lg:w-[149px] lg:h-[59.4px] rounded-full p-2 md:p-0 md:rounded-[40px] text-info_pallet border-black border-[2px] md:border-[0px] md:border-none md:text-white bg-white md:bg-black text-center">Get Started</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Info section 4 -->
+			<section class=" mt-32 md:mt-0">
+				<!-- top level div -->
+				<div class=" mx-auto lg:ml-16 md:p-2 md:max-w-[1171px] lg:pb-16">
+					<!-- text content -->
+					<div class=" w-full md:w-[701px] md:h-[150px] lg:mb-6">
+						<p id="library" class="bg-gradient-to-r from-gpt_purple via-gpt_orange to-gpt_orange bg-clip-text text-transparent text-center md:text-start text-[26px] md:text-2xl lg:text-4xl font-bold leading-[35px] md:leading-[44px] lg:leading-[55px] tracking-[-4%] ">A lot is happening,<br class="hidden md:block"> We are blogging about it.</p>
+					</div>
+					<!-- cards area -->
+					<div class="mt-10 md:mt-0 md:flex lg:gap-10 px-7 md:px-2 lg:px-0">
+						<!-- card 1 -->
+						<div class="w-full max-h-fit  md:h-[324px] md:w-[327px] lg:h-[696px] lg:w-[418px] rounded-md md:rounded-sm lg:rounded-none mb-5 md:mb-0">
+							<!-- image section -->
+							<div class="bg-cover object-cover">
+								<img src="./assets/Rectangle_pic1-f98c76d3.jpg" alt="" class=" w-full h-[150px]  lg:w-[417px] lg:h-[288px] md:w-full md:h-[131px] bg-cover object-cover" >
+							</div>
+							<!-- content -->
+							<div class="bg-card_bg w-full md:h-[194px] lg:h-[407px] text-[11.65px] font-semibold leading-[34.95px] px-6 py-9">
+								<p>
+									Sep 26, 2021
+								</p>
+								<p class="font-extrabold text-[19px] md:text-[25px] leading-[30.29px] lg:w-[342px]">
+									GPT-3 and Open  AI is the future. Let us exlore how it is?
+								</p>
+								<p class=" mt-12 md:mt-44">
+									Read Full Article
+								</p>
+							</div>
+						</div>
+						<!-- other card section -->
+						<div class="flex flex-col md:flex-row md:flex-wrap gap-5 ">
+								<!-- card 2 -->
+								<div class="lg:h-[324px] lg:w-[327px]">
+									<div>
+										<img src="./assets/Rectangle_pic2-eef1f262.png" alt="" class="lg:w-[327px] lg:h-[130px]">
+									</div>
+									<div class="bg-card_bg lg:h-[193px] lg:w-full font-semibold text-[11.65px] p-6 leading-[34.95px]">
+										<p>
+											Sep 26, 2021
+										</p>
+										<p class="font-bold text-[19.32px] leading-[30.29px]">
+											GPT-3 and Open  AI is the future. Let us exlore how it is?
+										</p>
+										<p class="mt-6">
+											Read Full Article
+										</p>
+									</div>
+								</div>
+								<!-- card 3 -->
+								<div class="lg:h-[324px] lg:w-[327px]">
+									<div>
+										<img src="./assets/Rectangle_pic3-4b1c8a2c.png" alt="" class="lg:w-[327px] lg:h-[130px]">
+									</div>
+									<div class="bg-card_bg lg:h-[193px] lg:w-full font-semibold text-[11.65px] p-6 leading-[34.95px]">
+										<p>
+											Sep 26, 2021
+										</p>
+										<p class="font-bold text-[19.32px] leading-[30.29px]">
+											GPT-3 and Open  AI is the future. Let us exlore how it is?
+										</p>
+										<p class="mt-6">
+											Read Full Article
+										</p>
+									</div>
+								</div>
+								<!-- card 4 -->
+								<div class="lg:h-[324px] lg:w-[327px]">
+									<div>
+										<img src="./assets/Rectangle_pic4-d554301d.png" alt="" class="lg:w-[327px] lg:h-[130px]">
+									</div>
+									<div class="bg-card_bg lg:h-[193px] lg:w-full font-semibold text-[11.65px] p-6 leading-[34.95px]">
+										<p>
+											Sep 26, 2021
+										</p>
+										<p class="font-bold text-[19.32px] leading-[30.29px]">
+											GPT-3 and Open  AI is the future. Let us exlore how it is?
+										</p>
+										<p class="mt-6">
+											Read Full Article
+										</p>
+									</div>
+								</div>
+								<!-- card 5 -->
+								<div class="lg:h-[324px] lg:w-[327px]">
+									<div>
+										<img src="./assets/Rectangle_pic5-34820217.png" alt="" class="lg:w-[327px] lg:h-[130px]">
+									</div>
+									<div class="bg-card_bg lg:h-[193px] lg:w-full font-semibold text-[11.65px] p-6 leading-[34.95px]">
+										<p>
+											Sep 26, 2021
+										</p>
+										<p class="font-bold text-[19.32px] leading-[30.29px]">
+											GPT-3 and Open  AI is the future. Let us exlore how it is?
+										</p>
+										<p class="mt-6">
+											Read Full Article
+										</p>
+									</div>
+								</div>
+						</div>
+						
+					</div>
+				</div>
+			</section>
+			<!-- footer section -->
+			<section class="mt-10 md:mt-5 lg:mt-0 pt-20 md:pt-3 lg:pt-0 ">
+			<div class="bg-footer_bg min-h-fit lg:h-[900px] text-[12px] leading-[14px]">
+				<div>
+					<div class="w-full text-center pb-5 md:pb-0 pt-5 md:w-[821px] mx-auto  md:pt-32  mb-10 md:mb-20">
+						<p class="bg-gradient-to-r from-gpt_purple to-gpt_orange text-[21px] md:text-4xl lg:text-5xl bg-clip-text text-transparent font-bold md:font-extrabold text-center">Do you want to step in to the future before others</p>
+					</div>
+					<div class=" flex justify-center mb-20 md:mb-52">
+						<button class="text-white md:w-[218px] border-[1px] border-white p-4  text-lg rounded-sm">Request Early Access</button>
+					</div>
+				</div>
+				<footer>
+				  <div class="min-h-fit md:h-full  flex flex-col md:flex-row justify-between px-8 sm:flex-wrap gap-10 md:gap-0  sm:px-11 md:px-12 lg:px-32 pt-0 md:pt-16 ">
+					<div class="flex flex-col gap-6">
+						<p class="text-xl sm:text-2xl lg:text-4xl font-extrabold">GPT-3</p>
+						<p>Crechterwoord K12 182 DK <br> Alknjkcb, All Rights Reserved</p>
+					</div>
+					<div>
+						<p class="text-[14px] leading-[16px] h-[17px] font-semibold mb-6">Links</p>
+						<ul class="flex flex-col gap-6">
+							<li>Overons</li>
+							<li>Social Media</li>
+							<li>Counters</li>
+							<li>Contact</li>
+						</ul>
+					</div>
+					<div>
+						<p class="text-[14px] leading-[16px] h-[17px] font-semibold mb-6">
+							Company
+						</p>
+						<ul class="flex flex-col gap-6">
+							<li>Terms & Conditions</li>
+							<li>Privacy Policy</li>
+							<li>Contact</li>
+						</ul>
+					</div>
+					<div>
+						<p class="text-[14px] leading-[16px] h-[17px] font-semibold mb-6">Get in touch</p>
+						<ul class="flex flex-col gap-6">
+							<li>Crechterwoord K12 <br> 182 DK Alknjkcb</li>
+						
+							<li>085-132567</li>
+							<li>info@payme.net</li>
+						</ul>
+					</div>
+				  </div>
+				  <div class="mt-16">
+					<p class="text-center">© 2021 GPT-3. All rights reserved.</p>
+				  </div>
+				</footer>
+			</div>
+			</section>
+		   
+		</div>
+	</body>
+</html>
+
+
+
+
+	
+		
+		
+		
+
+		
+		
+	 
+
